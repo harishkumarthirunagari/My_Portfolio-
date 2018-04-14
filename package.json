@@ -11,6 +11,10 @@
     "theme",
     "template"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
   "homepage": "https://startbootstrap.com/template-overviews/resume",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
