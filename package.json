@@ -52,8 +52,5 @@
   "main": "gulpfile.js",
   "directories": {
     "doc": "docs"
-  },
-  "scripts": {
-     "build-css": "node-sass --include-path scss scss/resume.min.scss -o css/resume.min.css"
   }
 }
