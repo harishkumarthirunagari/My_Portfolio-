@@ -3,7 +3,7 @@ const http = require('http');
 const fs = require('fs');
 // server properties
 
-const port = process.env || 3000;
+const port = process.env.PORT || 3000;
 const timer = 300;
 
 //should trigger atualize function every timer parameter
