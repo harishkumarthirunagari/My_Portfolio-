@@ -2,8 +2,8 @@
 const http = require('http');
 const fs = require('fs');
 // server properties
-const hostname = '127.0.0.1';
-const port = 3000;
+
+const port = process.env || 3000;
 const timer = 300;
 
 //should trigger atualize function every timer parameter
@@ -64,6 +64,6 @@ const server = http.createServer((req, res) => {
 
 // should send css and js
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(port, () => {
+  console.log(`Server running at ${port}/`);
 });
